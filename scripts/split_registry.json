@@ -1,0 +1,3180 @@
+{
+  "159787.SZ": {
+    "splits": [
+      {
+        "date": "20240105",
+        "ratio": 2.8689
+      },
+      {
+        "date": "20240320",
+        "ratio": 3.5884
+      },
+      {
+        "date": "20240528",
+        "ratio": 3.7115
+      },
+      {
+        "date": "20240805",
+        "ratio": 4.3299
+      },
+      {
+        "date": "20241015",
+        "ratio": 3.5488
+      },
+      {
+        "date": "20250722",
+        "ratio": 2.3367
+      },
+      {
+        "date": "20250723",
+        "ratio": 2.137
+      }
+    ],
+    "cumulative_ratio": 2931.7882
+  },
+  "562930.SH": {
+    "splits": [
+      {
+        "date": "20240109",
+        "ratio": 1.9889
+      },
+      {
+        "date": "20240603",
+        "ratio": 2.0604
+      },
+      {
+        "date": "20240808",
+        "ratio": 2.0962
+      },
+      {
+        "date": "20260113",
+        "ratio": 2.1568
+      }
+    ],
+    "cumulative_ratio": 18.5271
+  },
+  "159686.SZ": {
+    "splits": [
+      {
+        "date": "20240115",
+        "ratio": 1.9168
+      },
+      {
+        "date": "20240418",
+        "ratio": 2.2396
+      },
+      {
+        "date": "20240715",
+        "ratio": 1.9391
+      }
+    ],
+    "cumulative_ratio": 8.3243
+  },
+  "560280.SH": {
+    "splits": [
+      {
+        "date": "20240115",
+        "ratio": 4.7667
+      },
+      {
+        "date": "20240328",
+        "ratio": 2.1867
+      }
+    ],
+    "cumulative_ratio": 10.4233
+  },
+  "562920.SH": {
+    "splits": [
+      {
+        "date": "20240115",
+        "ratio": 2.9112
+      },
+      {
+        "date": "20240401",
+        "ratio": 2.3538
+      },
+      {
+        "date": "20240606",
+        "ratio": 2.918
+      },
+      {
+        "date": "20240812",
+        "ratio": 2.9951
+      },
+      {
+        "date": "20241014",
+        "ratio": 2.4251
+      }
+    ],
+    "cumulative_ratio": 145.2339
+  },
+  "159520.SZ": {
+    "splits": [
+      {
+        "date": "20240116",
+        "ratio": 2.2408
+      },
+      {
+        "date": "20240305",
+        "ratio": 1.8272
+      },
+      {
+        "date": "20240515",
+        "ratio": 2.3877
+      }
+    ],
+    "cumulative_ratio": 9.7762
+  },
+  "513800.SH": {
+    "splits": [
+      {
+        "date": "20240116",
+        "ratio": 1.8315
+      }
+    ],
+    "cumulative_ratio": 1.8315
+  },
+  "560590.SH": {
+    "splits": [
+      {
+        "date": "20240117",
+        "ratio": 2.6743
+      }
+    ],
+    "cumulative_ratio": 2.6743
+  },
+  "562590.SH": {
+    "splits": [
+      {
+        "date": "20240117",
+        "ratio": 2.2752
+      },
+      {
+        "date": "20260703",
+        "ratio": 3.0798
+      }
+    ],
+    "cumulative_ratio": 7.0072
+  },
+  "561370.SH": {
+    "splits": [
+      {
+        "date": "20240118",
+        "ratio": 2.5208
+      },
+      {
+        "date": "20240308",
+        "ratio": 2.29
+      },
+      {
+        "date": "20240423",
+        "ratio": 3.1615
+      },
+      {
+        "date": "20240624",
+        "ratio": 2.2518
+      },
+      {
+        "date": "20240805",
+        "ratio": 2.4106
+      },
+      {
+        "date": "20240912",
+        "ratio": 2.6694
+      }
+    ],
+    "cumulative_ratio": 264.4452
+  },
+  "562960.SH": {
+    "splits": [
+      {
+        "date": "20240122",
+        "ratio": 2.097
+      }
+    ],
+    "cumulative_ratio": 2.097
+  },
+  "562350.SH": {
+    "splits": [
+      {
+        "date": "20240123",
+        "ratio": 2.02
+      },
+      {
+        "date": "20240410",
+        "ratio": 2.1061
+      }
+    ],
+    "cumulative_ratio": 4.2543
+  },
+  "159777.SZ": {
+    "splits": [
+      {
+        "date": "20240124",
+        "ratio": 5.1087
+      },
+      {
+        "date": "20240424",
+        "ratio": 5.791
+      }
+    ],
+    "cumulative_ratio": 29.5845
+  },
+  "513870.SH": {
+    "splits": [
+      {
+        "date": "20240124",
+        "ratio": 2.3953
+      }
+    ],
+    "cumulative_ratio": 2.3953
+  },
+  "159660.SZ": {
+    "splits": [
+      {
+        "date": "20240125",
+        "ratio": 1.8826
+      }
+    ],
+    "cumulative_ratio": 1.8826
+  },
+  "159719.SZ": {
+    "splits": [
+      {
+        "date": "20240126",
+        "ratio": 1.8034
+      }
+    ],
+    "cumulative_ratio": 1.8034
+  },
+  "159543.SZ": {
+    "splits": [
+      {
+        "date": "20240129",
+        "ratio": 3.418
+      },
+      {
+        "date": "20240418",
+        "ratio": 3.6379
+      },
+      {
+        "date": "20240702",
+        "ratio": 3.6379
+      }
+    ],
+    "cumulative_ratio": 45.2349
+  },
+  "513040.SH": {
+    "splits": [
+      {
+        "date": "20240129",
+        "ratio": 3.2475
+      }
+    ],
+    "cumulative_ratio": 3.2475
+  },
+  "159690.SZ": {
+    "splits": [
+      {
+        "date": "20240130",
+        "ratio": 1.8112
+      }
+    ],
+    "cumulative_ratio": 1.8112
+  },
+  "562010.SH": {
+    "splits": [
+      {
+        "date": "20240131",
+        "ratio": 2.4165
+      }
+    ],
+    "cumulative_ratio": 2.4165
+  },
+  "159971.SZ": {
+    "splits": [
+      {
+        "date": "20240202",
+        "ratio": 1.9345
+      },
+      {
+        "date": "20251202",
+        "ratio": 1.9846
+      }
+    ],
+    "cumulative_ratio": 3.8392
+  },
+  "513220.SH": {
+    "splits": [
+      {
+        "date": "20240202",
+        "ratio": 1.8512
+      }
+    ],
+    "cumulative_ratio": 1.8512
+  },
+  "512100.SH": {
+    "splits": [
+      {
+        "date": "20240205",
+        "ratio": 2.328
+      }
+    ],
+    "cumulative_ratio": 2.328
+  },
+  "561280.SH": {
+    "splits": [
+      {
+        "date": "20240205",
+        "ratio": 1.8618
+      }
+    ],
+    "cumulative_ratio": 1.8618
+  },
+  "560010.SH": {
+    "splits": [
+      {
+        "date": "20240206",
+        "ratio": 2.0657
+      }
+    ],
+    "cumulative_ratio": 2.0657
+  },
+  "515310.SH": {
+    "splits": [
+      {
+        "date": "20240208",
+        "ratio": 2.0693
+      }
+    ],
+    "cumulative_ratio": 2.0693
+  },
+  "563200.SH": {
+    "splits": [
+      {
+        "date": "20240208",
+        "ratio": 2.451
+      }
+    ],
+    "cumulative_ratio": 2.451
+  },
+  "563300.SH": {
+    "splits": [
+      {
+        "date": "20240208",
+        "ratio": 5.4491
+      },
+      {
+        "date": "20240930",
+        "ratio": 1.8379
+      }
+    ],
+    "cumulative_ratio": 10.0149
+  },
+  "159531.SZ": {
+    "splits": [
+      {
+        "date": "20240219",
+        "ratio": 7.9205
+      },
+      {
+        "date": "20240417",
+        "ratio": 2.0721
+      },
+      {
+        "date": "20240607",
+        "ratio": 1.8188
+      }
+    ],
+    "cumulative_ratio": 29.8503
+  },
+  "159532.SZ": {
+    "splits": [
+      {
+        "date": "20240219",
+        "ratio": 1.8428
+      }
+    ],
+    "cumulative_ratio": 1.8428
+  },
+  "159536.SZ": {
+    "splits": [
+      {
+        "date": "20240219",
+        "ratio": 1.9396
+      }
+    ],
+    "cumulative_ratio": 1.9396
+  },
+  "588320.SH": {
+    "splits": [
+      {
+        "date": "20240226",
+        "ratio": 2.5148
+      },
+      {
+        "date": "20240507",
+        "ratio": 4.0295
+      },
+      {
+        "date": "20240614",
+        "ratio": 4.0295
+      },
+      {
+        "date": "20241008",
+        "ratio": 2.6776
+      }
+    ],
+    "cumulative_ratio": 109.3331
+  },
+  "159539.SZ": {
+    "splits": [
+      {
+        "date": "20240308",
+        "ratio": 2.3841
+      },
+      {
+        "date": "20240517",
+        "ratio": 2.3552
+      },
+      {
+        "date": "20240628",
+        "ratio": 2.1903
+      }
+    ],
+    "cumulative_ratio": 12.2986
+  },
+  "515590.SH": {
+    "splits": [
+      {
+        "date": "20240313",
+        "ratio": 1.8949
+      },
+      {
+        "date": "20240513",
+        "ratio": 1.8949
+      },
+      {
+        "date": "20240719",
+        "ratio": 2.1757
+      },
+      {
+        "date": "20240919",
+        "ratio": 1.9953
+      }
+    ],
+    "cumulative_ratio": 15.5876
+  },
+  "159620.SZ": {
+    "splits": [
+      {
+        "date": "20240315",
+        "ratio": 2.4919
+      }
+    ],
+    "cumulative_ratio": 2.4919
+  },
+  "159728.SZ": {
+    "splits": [
+      {
+        "date": "20240315",
+        "ratio": 2.2192
+      }
+    ],
+    "cumulative_ratio": 2.2192
+  },
+  "159653.SZ": {
+    "splits": [
+      {
+        "date": "20240318",
+        "ratio": 5.6482
+      }
+    ],
+    "cumulative_ratio": 5.6482
+  },
+  "517660.SH": {
+    "splits": [
+      {
+        "date": "20240319",
+        "ratio": 1.8324
+      }
+    ],
+    "cumulative_ratio": 1.8324
+  },
+  "159791.SZ": {
+    "splits": [
+      {
+        "date": "20240321",
+        "ratio": 2.8972
+      }
+    ],
+    "cumulative_ratio": 2.8972
+  },
+  "516190.SH": {
+    "splits": [
+      {
+        "date": "20240321",
+        "ratio": 2.7658
+      },
+      {
+        "date": "20260112",
+        "ratio": 9.0011
+      }
+    ],
+    "cumulative_ratio": 24.8952
+  },
+  "159731.SZ": {
+    "splits": [
+      {
+        "date": "20240327",
+        "ratio": 2.1237
+      },
+      {
+        "date": "20251028",
+        "ratio": 2.1601
+      }
+    ],
+    "cumulative_ratio": 4.5874
+  },
+  "511770.SH": {
+    "splits": [
+      {
+        "date": "20240327",
+        "ratio": 5.1477
+      },
+      {
+        "date": "20240618",
+        "ratio": 8.0755
+      },
+      {
+        "date": "20240619",
+        "ratio": 1.8768
+      },
+      {
+        "date": "20240926",
+        "ratio": 7.5478
+      },
+      {
+        "date": "20241210",
+        "ratio": 2.4642
+      },
+      {
+        "date": "20250211",
+        "ratio": 4.5477
+      },
+      {
+        "date": "20250212",
+        "ratio": 2.1606
+      }
+    ],
+    "cumulative_ratio": 14258.1494
+  },
+  "159907.SZ": {
+    "splits": [
+      {
+        "date": "20240401",
+        "ratio": 2.0
+      }
+    ],
+    "cumulative_ratio": 2.0
+  },
+  "159562.SZ": {
+    "splits": [
+      {
+        "date": "20240409",
+        "ratio": 4.5655
+      }
+    ],
+    "cumulative_ratio": 4.5655
+  },
+  "159547.SZ": {
+    "splits": [
+      {
+        "date": "20240411",
+        "ratio": 1.9304
+      }
+    ],
+    "cumulative_ratio": 1.9304
+  },
+  "515220.SH": {
+    "splits": [
+      {
+        "date": "20240411",
+        "ratio": 2.0119
+      }
+    ],
+    "cumulative_ratio": 2.0119
+  },
+  "561200.SH": {
+    "splits": [
+      {
+        "date": "20240417",
+        "ratio": 6.1866
+      },
+      {
+        "date": "20240423",
+        "ratio": 2.9517
+      }
+    ],
+    "cumulative_ratio": 18.261
+  },
+  "159517.SZ": {
+    "splits": [
+      {
+        "date": "20240419",
+        "ratio": 2.1218
+      }
+    ],
+    "cumulative_ratio": 2.1218
+  },
+  "159527.SZ": {
+    "splits": [
+      {
+        "date": "20240425",
+        "ratio": 2.4364
+      },
+      {
+        "date": "20240514",
+        "ratio": 3.1117
+      },
+      {
+        "date": "20240621",
+        "ratio": 2.0788
+      }
+    ],
+    "cumulative_ratio": 15.7601
+  },
+  "513190.SH": {
+    "splits": [
+      {
+        "date": "20240517",
+        "ratio": 1.9742
+      }
+    ],
+    "cumulative_ratio": 1.9742
+  },
+  "560300.SH": {
+    "splits": [
+      {
+        "date": "20240522",
+        "ratio": 1.9301
+      }
+    ],
+    "cumulative_ratio": 1.9301
+  },
+  "561780.SH": {
+    "splits": [
+      {
+        "date": "20240523",
+        "ratio": 2.527
+      },
+      {
+        "date": "20240731",
+        "ratio": 2.6047
+      }
+    ],
+    "cumulative_ratio": 6.5821
+  },
+  "562330.SH": {
+    "splits": [
+      {
+        "date": "20240523",
+        "ratio": 1.8923
+      }
+    ],
+    "cumulative_ratio": 1.8923
+  },
+  "560580.SH": {
+    "splits": [
+      {
+        "date": "20240527",
+        "ratio": 2.1362
+      }
+    ],
+    "cumulative_ratio": 2.1362
+  },
+  "159537.SZ": {
+    "splits": [
+      {
+        "date": "20240606",
+        "ratio": 1.866
+      },
+      {
+        "date": "20240814",
+        "ratio": 1.9809
+      },
+      {
+        "date": "20250529",
+        "ratio": 2.1905
+      },
+      {
+        "date": "20260625",
+        "ratio": 2.522
+      }
+    ],
+    "cumulative_ratio": 20.4203
+  },
+  "159685.SZ": {
+    "splits": [
+      {
+        "date": "20240613",
+        "ratio": 1.8971
+      }
+    ],
+    "cumulative_ratio": 1.8971
+  },
+  "511960.SH": {
+    "splits": [
+      {
+        "date": "20240613",
+        "ratio": 1.8222
+      },
+      {
+        "date": "20250205",
+        "ratio": 1.8736
+      },
+      {
+        "date": "20250424",
+        "ratio": 2.0566
+      }
+    ],
+    "cumulative_ratio": 7.0214
+  },
+  "159540.SZ": {
+    "splits": [
+      {
+        "date": "20240620",
+        "ratio": 1.857
+      },
+      {
+        "date": "20240906",
+        "ratio": 1.9849
+      }
+    ],
+    "cumulative_ratio": 3.686
+  },
+  "516310.SH": {
+    "splits": [
+      {
+        "date": "20240624",
+        "ratio": 4.3989
+      },
+      {
+        "date": "20240625",
+        "ratio": 2.4039
+      }
+    ],
+    "cumulative_ratio": 10.5745
+  },
+  "561180.SH": {
+    "splits": [
+      {
+        "date": "20240626",
+        "ratio": 2.6383
+      }
+    ],
+    "cumulative_ratio": 2.6383
+  },
+  "588890.SH": {
+    "splits": [
+      {
+        "date": "20240708",
+        "ratio": 2.0161
+      },
+      {
+        "date": "20240709",
+        "ratio": 2.134
+      },
+      {
+        "date": "20240930",
+        "ratio": 2.1809
+      }
+    ],
+    "cumulative_ratio": 9.383
+  },
+  "159576.SZ": {
+    "splits": [
+      {
+        "date": "20240710",
+        "ratio": 1.8418
+      }
+    ],
+    "cumulative_ratio": 1.8418
+  },
+  "563010.SH": {
+    "splits": [
+      {
+        "date": "20240710",
+        "ratio": 1.9563
+      }
+    ],
+    "cumulative_ratio": 1.9563
+  },
+  "159581.SZ": {
+    "splits": [
+      {
+        "date": "20240711",
+        "ratio": 3.3702
+      }
+    ],
+    "cumulative_ratio": 3.3702
+  },
+  "159553.SZ": {
+    "splits": [
+      {
+        "date": "20240716",
+        "ratio": 5.4545
+      },
+      {
+        "date": "20240726",
+        "ratio": 2.162
+      }
+    ],
+    "cumulative_ratio": 11.7926
+  },
+  "561760.SH": {
+    "splits": [
+      {
+        "date": "20240719",
+        "ratio": 3.0564
+      },
+      {
+        "date": "20240925",
+        "ratio": 2.4376
+      },
+      {
+        "date": "20241211",
+        "ratio": 2.4541
+      },
+      {
+        "date": "20250616",
+        "ratio": 2.1159
+      },
+      {
+        "date": "20260304",
+        "ratio": 2.1849
+      }
+    ],
+    "cumulative_ratio": 84.5262
+  },
+  "159589.SZ": {
+    "splits": [
+      {
+        "date": "20240723",
+        "ratio": 1.8588
+      }
+    ],
+    "cumulative_ratio": 1.8588
+  },
+  "516960.SH": {
+    "splits": [
+      {
+        "date": "20240815",
+        "ratio": 2.5121
+      }
+    ],
+    "cumulative_ratio": 2.5121
+  },
+  "159895.SZ": {
+    "splits": [
+      {
+        "date": "20240903",
+        "ratio": 2.285
+      }
+    ],
+    "cumulative_ratio": 2.285
+  },
+  "560330.SH": {
+    "splits": [
+      {
+        "date": "20240912",
+        "ratio": 1.9952
+      },
+      {
+        "date": "20250210",
+        "ratio": 2.0744
+      },
+      {
+        "date": "20260106",
+        "ratio": 2.0412
+      }
+    ],
+    "cumulative_ratio": 8.4482
+  },
+  "513320.SH": {
+    "splits": [
+      {
+        "date": "20240924",
+        "ratio": 3.0466
+      },
+      {
+        "date": "20250127",
+        "ratio": 2.6058
+      }
+    ],
+    "cumulative_ratio": 7.9388
+  },
+  "588500.SH": {
+    "splits": [
+      {
+        "date": "20240927",
+        "ratio": 3.5958
+      },
+      {
+        "date": "20240930",
+        "ratio": 6.2656
+      },
+      {
+        "date": "20241008",
+        "ratio": 1.8291
+      }
+    ],
+    "cumulative_ratio": 41.2093
+  },
+  "159568.SZ": {
+    "splits": [
+      {
+        "date": "20240930",
+        "ratio": 1.8693
+      },
+      {
+        "date": "20241010",
+        "ratio": 2.0358
+      },
+      {
+        "date": "20250211",
+        "ratio": 2.8679
+      }
+    ],
+    "cumulative_ratio": 10.9139
+  },
+  "159931.SZ": {
+    "splits": [
+      {
+        "date": "20240930",
+        "ratio": 2.0826
+      }
+    ],
+    "cumulative_ratio": 2.0826
+  },
+  "510980.SH": {
+    "splits": [
+      {
+        "date": "20240930",
+        "ratio": 1.8633
+      }
+    ],
+    "cumulative_ratio": 1.8633
+  },
+  "512150.SH": {
+    "splits": [
+      {
+        "date": "20240930",
+        "ratio": 1.9386
+      }
+    ],
+    "cumulative_ratio": 1.9386
+  },
+  "513140.SH": {
+    "splits": [
+      {
+        "date": "20240930",
+        "ratio": 2.6687
+      },
+      {
+        "date": "20250227",
+        "ratio": 2.3749
+      }
+    ],
+    "cumulative_ratio": 6.3379
+  },
+  "513210.SH": {
+    "splits": [
+      {
+        "date": "20240930",
+        "ratio": 2.0503
+      },
+      {
+        "date": "20250422",
+        "ratio": 1.9079
+      },
+      {
+        "date": "20251224",
+        "ratio": 1.8625
+      }
+    ],
+    "cumulative_ratio": 7.2857
+  },
+  "513590.SH": {
+    "splits": [
+      {
+        "date": "20240930",
+        "ratio": 2.012
+      },
+      {
+        "date": "20250228",
+        "ratio": 1.8919
+      }
+    ],
+    "cumulative_ratio": 3.8065
+  },
+  "560680.SH": {
+    "splits": [
+      {
+        "date": "20240930",
+        "ratio": 1.8173
+      }
+    ],
+    "cumulative_ratio": 1.8173
+  },
+  "588310.SH": {
+    "splits": [
+      {
+        "date": "20240930",
+        "ratio": 2.0084
+      },
+      {
+        "date": "20241008",
+        "ratio": 1.8607
+      }
+    ],
+    "cumulative_ratio": 3.737
+  },
+  "588830.SH": {
+    "splits": [
+      {
+        "date": "20240930",
+        "ratio": 2.5934
+      },
+      {
+        "date": "20241008",
+        "ratio": 5.1877
+      }
+    ],
+    "cumulative_ratio": 13.4538
+  },
+  "159001.SZ": {
+    "splits": [
+      {
+        "date": "20241008",
+        "ratio": 3.0056
+      },
+      {
+        "date": "20250102",
+        "ratio": 3.078
+      }
+    ],
+    "cumulative_ratio": 9.2512
+  },
+  "159330.SZ": {
+    "splits": [
+      {
+        "date": "20241008",
+        "ratio": 2.4932
+      }
+    ],
+    "cumulative_ratio": 2.4932
+  },
+  "159735.SZ": {
+    "splits": [
+      {
+        "date": "20241008",
+        "ratio": 2.6421
+      }
+    ],
+    "cumulative_ratio": 2.6421
+  },
+  "159773.SZ": {
+    "splits": [
+      {
+        "date": "20241008",
+        "ratio": 5.241
+      }
+    ],
+    "cumulative_ratio": 5.241
+  },
+  "159821.SZ": {
+    "splits": [
+      {
+        "date": "20241008",
+        "ratio": 3.4479
+      }
+    ],
+    "cumulative_ratio": 3.4479
+  },
+  "513230.SH": {
+    "splits": [
+      {
+        "date": "20241008",
+        "ratio": 2.6949
+      }
+    ],
+    "cumulative_ratio": 2.6949
+  },
+  "515130.SH": {
+    "splits": [
+      {
+        "date": "20241008",
+        "ratio": 1.8776
+      }
+    ],
+    "cumulative_ratio": 1.8776
+  },
+  "588010.SH": {
+    "splits": [
+      {
+        "date": "20241008",
+        "ratio": 7.071
+      }
+    ],
+    "cumulative_ratio": 7.071
+  },
+  "588150.SH": {
+    "splits": [
+      {
+        "date": "20241008",
+        "ratio": 2.1139
+      }
+    ],
+    "cumulative_ratio": 2.1139
+  },
+  "588160.SH": {
+    "splits": [
+      {
+        "date": "20241008",
+        "ratio": 2.5883
+      }
+    ],
+    "cumulative_ratio": 2.5883
+  },
+  "588190.SH": {
+    "splits": [
+      {
+        "date": "20241008",
+        "ratio": 2.0278
+      }
+    ],
+    "cumulative_ratio": 2.0278
+  },
+  "588680.SH": {
+    "splits": [
+      {
+        "date": "20241008",
+        "ratio": 2.012
+      }
+    ],
+    "cumulative_ratio": 2.012
+  },
+  "588700.SH": {
+    "splits": [
+      {
+        "date": "20241008",
+        "ratio": 2.7774
+      }
+    ],
+    "cumulative_ratio": 2.7774
+  },
+  "588860.SH": {
+    "splits": [
+      {
+        "date": "20241008",
+        "ratio": 7.1445
+      },
+      {
+        "date": "20251024",
+        "ratio": 2.0
+      }
+    ],
+    "cumulative_ratio": 14.289
+  },
+  "159567.SZ": {
+    "splits": [
+      {
+        "date": "20241009",
+        "ratio": 2.0237
+      },
+      {
+        "date": "20250811",
+        "ratio": 2.0287
+      }
+    ],
+    "cumulative_ratio": 4.1055
+  },
+  "159682.SZ": {
+    "splits": [
+      {
+        "date": "20241009",
+        "ratio": 1.802
+      }
+    ],
+    "cumulative_ratio": 1.802
+  },
+  "159991.SZ": {
+    "splits": [
+      {
+        "date": "20241009",
+        "ratio": 1.9708
+      }
+    ],
+    "cumulative_ratio": 1.9708
+  },
+  "588200.SH": {
+    "splits": [
+      {
+        "date": "20241009",
+        "ratio": 2.1551
+      }
+    ],
+    "cumulative_ratio": 2.1551
+  },
+  "588990.SH": {
+    "splits": [
+      {
+        "date": "20241009",
+        "ratio": 3.4022
+      },
+      {
+        "date": "20250829",
+        "ratio": 2.6531
+      }
+    ],
+    "cumulative_ratio": 9.0264
+  },
+  "159563.SZ": {
+    "splits": [
+      {
+        "date": "20241010",
+        "ratio": 2.4735
+      }
+    ],
+    "cumulative_ratio": 2.4735
+  },
+  "159692.SZ": {
+    "splits": [
+      {
+        "date": "20241010",
+        "ratio": 1.8637
+      }
+    ],
+    "cumulative_ratio": 1.8637
+  },
+  "159717.SZ": {
+    "splits": [
+      {
+        "date": "20241010",
+        "ratio": 3.2031
+      },
+      {
+        "date": "20251030",
+        "ratio": 1.8868
+      },
+      {
+        "date": "20260109",
+        "ratio": 2.301
+      },
+      {
+        "date": "20260611",
+        "ratio": 1.9853
+      }
+    ],
+    "cumulative_ratio": 27.6083
+  },
+  "159338.SZ": {
+    "splits": [
+      {
+        "date": "20241016",
+        "ratio": 2.3829
+      }
+    ],
+    "cumulative_ratio": 2.3829
+  },
+  "159923.SZ": {
+    "splits": [
+      {
+        "date": "20241016",
+        "ratio": 1.8296
+      }
+    ],
+    "cumulative_ratio": 1.8296
+  },
+  "562060.SH": {
+    "splits": [
+      {
+        "date": "20241105",
+        "ratio": 3.2316
+      },
+      {
+        "date": "20250808",
+        "ratio": 2.0022
+      }
+    ],
+    "cumulative_ratio": 6.4703
+  },
+  "560780.SH": {
+    "splits": [
+      {
+        "date": "20241111",
+        "ratio": 2.1617
+      },
+      {
+        "date": "20250924",
+        "ratio": 2.0019
+      },
+      {
+        "date": "20260625",
+        "ratio": 3.1695
+      }
+    ],
+    "cumulative_ratio": 13.716
+  },
+  "159558.SZ": {
+    "splits": [
+      {
+        "date": "20241112",
+        "ratio": 1.8048
+      },
+      {
+        "date": "20260708",
+        "ratio": 2.9363
+      }
+    ],
+    "cumulative_ratio": 5.2994
+  },
+  "560850.SH": {
+    "splits": [
+      {
+        "date": "20241112",
+        "ratio": 2.2156
+      }
+    ],
+    "cumulative_ratio": 2.2156
+  },
+  "512050.SH": {
+    "splits": [
+      {
+        "date": "20241115",
+        "ratio": 2.4115
+      }
+    ],
+    "cumulative_ratio": 2.4115
+  },
+  "159533.SZ": {
+    "splits": [
+      {
+        "date": "20241118",
+        "ratio": 4.1552
+      },
+      {
+        "date": "20241212",
+        "ratio": 2.2066
+      }
+    ],
+    "cumulative_ratio": 9.1689
+  },
+  "159922.SZ": {
+    "splits": [
+      {
+        "date": "20241202",
+        "ratio": 2.5077
+      }
+    ],
+    "cumulative_ratio": 2.5077
+  },
+  "530050.SH": {
+    "splits": [
+      {
+        "date": "20241206",
+        "ratio": 3.0367
+      }
+    ],
+    "cumulative_ratio": 3.0367
+  },
+  "562340.SH": {
+    "splits": [
+      {
+        "date": "20241224",
+        "ratio": 1.8749
+      }
+    ],
+    "cumulative_ratio": 1.8749
+  },
+  "517900.SH": {
+    "splits": [
+      {
+        "date": "20241227",
+        "ratio": 1.8299
+      }
+    ],
+    "cumulative_ratio": 1.8299
+  },
+  "520890.SH": {
+    "splits": [
+      {
+        "date": "20241227",
+        "ratio": 4.185
+      }
+    ],
+    "cumulative_ratio": 4.185
+  },
+  "588750.SH": {
+    "splits": [
+      {
+        "date": "20241227",
+        "ratio": 2.4029
+      }
+    ],
+    "cumulative_ratio": 2.4029
+  },
+  "159331.SZ": {
+    "splits": [
+      {
+        "date": "20241230",
+        "ratio": 2.4412
+      }
+    ],
+    "cumulative_ratio": 2.4412
+  },
+  "159333.SZ": {
+    "splits": [
+      {
+        "date": "20241230",
+        "ratio": 3.1288
+      }
+    ],
+    "cumulative_ratio": 3.1288
+  },
+  "159569.SZ": {
+    "splits": [
+      {
+        "date": "20241230",
+        "ratio": 2.1889
+      }
+    ],
+    "cumulative_ratio": 2.1889
+  },
+  "159575.SZ": {
+    "splits": [
+      {
+        "date": "20250107",
+        "ratio": 2.3078
+      }
+    ],
+    "cumulative_ratio": 2.3078
+  },
+  "159711.SZ": {
+    "splits": [
+      {
+        "date": "20250115",
+        "ratio": 1.9359
+      }
+    ],
+    "cumulative_ratio": 1.9359
+  },
+  "159542.SZ": {
+    "splits": [
+      {
+        "date": "20250120",
+        "ratio": 2.6214
+      },
+      {
+        "date": "20250701",
+        "ratio": 1.8046
+      },
+      {
+        "date": "20250722",
+        "ratio": 2.6413
+      },
+      {
+        "date": "20250723",
+        "ratio": 2.336
+      }
+    ],
+    "cumulative_ratio": 29.188
+  },
+  "511970.SH": {
+    "splits": [
+      {
+        "date": "20250205",
+        "ratio": 2.4025
+      }
+    ],
+    "cumulative_ratio": 2.4025
+  },
+  "513160.SH": {
+    "splits": [
+      {
+        "date": "20250206",
+        "ratio": 1.8233
+      }
+    ],
+    "cumulative_ratio": 1.8233
+  },
+  "159303.SZ": {
+    "splits": [
+      {
+        "date": "20250207",
+        "ratio": 3.0973
+      },
+      {
+        "date": "20260408",
+        "ratio": 1.935
+      },
+      {
+        "date": "20260702",
+        "ratio": 1.9049
+      }
+    ],
+    "cumulative_ratio": 11.4166
+  },
+  "513560.SH": {
+    "splits": [
+      {
+        "date": "20250210",
+        "ratio": 2.7982
+      }
+    ],
+    "cumulative_ratio": 2.7982
+  },
+  "520600.SH": {
+    "splits": [
+      {
+        "date": "20250210",
+        "ratio": 4.3891
+      }
+    ],
+    "cumulative_ratio": 4.3891
+  },
+  "511930.SH": {
+    "splits": [
+      {
+        "date": "20250211",
+        "ratio": 2.0078
+      },
+      {
+        "date": "20250212",
+        "ratio": 2.2937
+      }
+    ],
+    "cumulative_ratio": 4.6053
+  },
+  "511910.SH": {
+    "splits": [
+      {
+        "date": "20250212",
+        "ratio": 2.2823
+      }
+    ],
+    "cumulative_ratio": 2.2823
+  },
+  "511920.SH": {
+    "splits": [
+      {
+        "date": "20250212",
+        "ratio": 2.2078
+      }
+    ],
+    "cumulative_ratio": 2.2078
+  },
+  "588810.SH": {
+    "splits": [
+      {
+        "date": "20250213",
+        "ratio": 2.3214
+      }
+    ],
+    "cumulative_ratio": 2.3214
+  },
+  "511950.SH": {
+    "splits": [
+      {
+        "date": "20250214",
+        "ratio": 1.831
+      }
+    ],
+    "cumulative_ratio": 1.831
+  },
+  "520500.SH": {
+    "splits": [
+      {
+        "date": "20250214",
+        "ratio": 2.15
+      },
+      {
+        "date": "20250403",
+        "ratio": 1.8416
+      }
+    ],
+    "cumulative_ratio": 3.9594
+  },
+  "159712.SZ": {
+    "splits": [
+      {
+        "date": "20250217",
+        "ratio": 4.8479
+      },
+      {
+        "date": "20250423",
+        "ratio": 3.0427
+      },
+      {
+        "date": "20250701",
+        "ratio": 1.9336
+      },
+      {
+        "date": "20251029",
+        "ratio": 2.6282
+      },
+      {
+        "date": "20251230",
+        "ratio": 2.7817
+      }
+    ],
+    "cumulative_ratio": 208.5202
+  },
+  "588760.SH": {
+    "splits": [
+      {
+        "date": "20250220",
+        "ratio": 1.9775
+      }
+    ],
+    "cumulative_ratio": 1.9775
+  },
+  "530280.SH": {
+    "splits": [
+      {
+        "date": "20250224",
+        "ratio": 2.4331
+      },
+      {
+        "date": "20250306",
+        "ratio": 3.511
+      }
+    ],
+    "cumulative_ratio": 8.5426
+  },
+  "560520.SH": {
+    "splits": [
+      {
+        "date": "20250226",
+        "ratio": 1.8694
+      },
+      {
+        "date": "20250630",
+        "ratio": 2.0524
+      },
+      {
+        "date": "20260313",
+        "ratio": 2.0524
+      },
+      {
+        "date": "20260626",
+        "ratio": 1.923
+      }
+    ],
+    "cumulative_ratio": 15.1428
+  },
+  "513380.SH": {
+    "splits": [
+      {
+        "date": "20250311",
+        "ratio": 2.065
+      }
+    ],
+    "cumulative_ratio": 2.065
+  },
+  "588790.SH": {
+    "splits": [
+      {
+        "date": "20250318",
+        "ratio": 1.9866
+      }
+    ],
+    "cumulative_ratio": 1.9866
+  },
+  "159375.SZ": {
+    "splits": [
+      {
+        "date": "20250320",
+        "ratio": 1.8209
+      },
+      {
+        "date": "20260625",
+        "ratio": 2.4754
+      }
+    ],
+    "cumulative_ratio": 4.5075
+  },
+  "511820.SH": {
+    "splits": [
+      {
+        "date": "20250321",
+        "ratio": 1.9426
+      }
+    ],
+    "cumulative_ratio": 1.9426
+  },
+  "159370.SZ": {
+    "splits": [
+      {
+        "date": "20250407",
+        "ratio": 3.2523
+      }
+    ],
+    "cumulative_ratio": 3.2523
+  },
+  "159587.SZ": {
+    "splits": [
+      {
+        "date": "20250409",
+        "ratio": 2.2929
+      },
+      {
+        "date": "20250410",
+        "ratio": 1.8845
+      },
+      {
+        "date": "20260129",
+        "ratio": 2.0246
+      }
+    ],
+    "cumulative_ratio": 8.7482
+  },
+  "159698.SZ": {
+    "splits": [
+      {
+        "date": "20250409",
+        "ratio": 1.8429
+      }
+    ],
+    "cumulative_ratio": 1.8429
+  },
+  "159373.SZ": {
+    "splits": [
+      {
+        "date": "20250410",
+        "ratio": 3.4292
+      }
+    ],
+    "cumulative_ratio": 3.4292
+  },
+  "589770.SH": {
+    "splits": [
+      {
+        "date": "20250415",
+        "ratio": 2.0671
+      }
+    ],
+    "cumulative_ratio": 2.0671
+  },
+  "588720.SH": {
+    "splits": [
+      {
+        "date": "20250418",
+        "ratio": 1.9319
+      }
+    ],
+    "cumulative_ratio": 1.9319
+  },
+  "589000.SH": {
+    "splits": [
+      {
+        "date": "20250418",
+        "ratio": 2.3812
+      }
+    ],
+    "cumulative_ratio": 2.3812
+  },
+  "159312.SZ": {
+    "splits": [
+      {
+        "date": "20250423",
+        "ratio": 2.4146
+      },
+      {
+        "date": "20251230",
+        "ratio": 6.8893
+      },
+      {
+        "date": "20260402",
+        "ratio": 2.3115
+      }
+    ],
+    "cumulative_ratio": 38.4516
+  },
+  "159788.SZ": {
+    "splits": [
+      {
+        "date": "20250423",
+        "ratio": 2.6257
+      },
+      {
+        "date": "20251029",
+        "ratio": 1.9584
+      }
+    ],
+    "cumulative_ratio": 5.1422
+  },
+  "511860.SH": {
+    "splits": [
+      {
+        "date": "20250425",
+        "ratio": 1.8881
+      }
+    ],
+    "cumulative_ratio": 1.8881
+  },
+  "159366.SZ": {
+    "splits": [
+      {
+        "date": "20250430",
+        "ratio": 2.0678
+      },
+      {
+        "date": "20250530",
+        "ratio": 2.4754
+      },
+      {
+        "date": "20250728",
+        "ratio": 2.0091
+      }
+    ],
+    "cumulative_ratio": 10.2838
+  },
+  "589980.SH": {
+    "splits": [
+      {
+        "date": "20250513",
+        "ratio": 1.8511
+      }
+    ],
+    "cumulative_ratio": 1.8511
+  },
+  "562030.SH": {
+    "splits": [
+      {
+        "date": "20250527",
+        "ratio": 2.0428
+      },
+      {
+        "date": "20250605",
+        "ratio": 1.8142
+      },
+      {
+        "date": "20250912",
+        "ratio": 2.0411
+      }
+    ],
+    "cumulative_ratio": 7.5644
+  },
+  "159538.SZ": {
+    "splits": [
+      {
+        "date": "20250530",
+        "ratio": 1.9421
+      },
+      {
+        "date": "20250605",
+        "ratio": 1.9333
+      }
+    ],
+    "cumulative_ratio": 3.7547
+  },
+  "562570.SH": {
+    "splits": [
+      {
+        "date": "20250604",
+        "ratio": 1.8971
+      }
+    ],
+    "cumulative_ratio": 1.8971
+  },
+  "561360.SH": {
+    "splits": [
+      {
+        "date": "20250613",
+        "ratio": 1.8911
+      },
+      {
+        "date": "20260302",
+        "ratio": 1.8943
+      },
+      {
+        "date": "20260303",
+        "ratio": 1.8411
+      }
+    ],
+    "cumulative_ratio": 6.5954
+  },
+  "589300.SH": {
+    "splits": [
+      {
+        "date": "20250613",
+        "ratio": 2.3467
+      }
+    ],
+    "cumulative_ratio": 2.3467
+  },
+  "512810.SH": {
+    "splits": [
+      {
+        "date": "20250620",
+        "ratio": 2.0
+      }
+    ],
+    "cumulative_ratio": 2.0
+  },
+  "588940.SH": {
+    "splits": [
+      {
+        "date": "20250627",
+        "ratio": 3.0469
+      },
+      {
+        "date": "20250825",
+        "ratio": 1.9546
+      }
+    ],
+    "cumulative_ratio": 5.9555
+  },
+  "159386.SZ": {
+    "splits": [
+      {
+        "date": "20250701",
+        "ratio": 2.9572
+      }
+    ],
+    "cumulative_ratio": 2.9572
+  },
+  "159211.SZ": {
+    "splits": [
+      {
+        "date": "20250704",
+        "ratio": 9.7698
+      }
+    ],
+    "cumulative_ratio": 9.7698
+  },
+  "512800.SH": {
+    "splits": [
+      {
+        "date": "20250704",
+        "ratio": 1.9906
+      }
+    ],
+    "cumulative_ratio": 1.9906
+  },
+  "560820.SH": {
+    "splits": [
+      {
+        "date": "20250709",
+        "ratio": 2.3416
+      },
+      {
+        "date": "20250916",
+        "ratio": 2.0449
+      }
+    ],
+    "cumulative_ratio": 4.7883
+  },
+  "159851.SZ": {
+    "splits": [
+      {
+        "date": "20250714",
+        "ratio": 2.0308
+      }
+    ],
+    "cumulative_ratio": 2.0308
+  },
+  "588040.SH": {
+    "splits": [
+      {
+        "date": "20250715",
+        "ratio": 2.1721
+      }
+    ],
+    "cumulative_ratio": 2.1721
+  },
+  "159205.SZ": {
+    "splits": [
+      {
+        "date": "20250717",
+        "ratio": 2.7194
+      }
+    ],
+    "cumulative_ratio": 2.7194
+  },
+  "159363.SZ": {
+    "splits": [
+      {
+        "date": "20250721",
+        "ratio": 1.9645
+      }
+    ],
+    "cumulative_ratio": 1.9645
+  },
+  "516750.SH": {
+    "splits": [
+      {
+        "date": "20250721",
+        "ratio": 6.9474
+      },
+      {
+        "date": "20250722",
+        "ratio": 2.9313
+      }
+    ],
+    "cumulative_ratio": 20.3649
+  },
+  "159619.SZ": {
+    "splits": [
+      {
+        "date": "20250722",
+        "ratio": 2.4169
+      }
+    ],
+    "cumulative_ratio": 2.4169
+  },
+  "159635.SZ": {
+    "splits": [
+      {
+        "date": "20250722",
+        "ratio": 2.2769
+      },
+      {
+        "date": "20260507",
+        "ratio": 2.0901
+      }
+    ],
+    "cumulative_ratio": 4.7589
+  },
+  "588850.SH": {
+    "splits": [
+      {
+        "date": "20250722",
+        "ratio": 1.9113
+      }
+    ],
+    "cumulative_ratio": 1.9113
+  },
+  "588710.SH": {
+    "splits": [
+      {
+        "date": "20250723",
+        "ratio": 1.8351
+      }
+    ],
+    "cumulative_ratio": 1.8351
+  },
+  "516460.SH": {
+    "splits": [
+      {
+        "date": "20250725",
+        "ratio": 2.8815
+      }
+    ],
+    "cumulative_ratio": 2.8815
+  },
+  "520880.SH": {
+    "splits": [
+      {
+        "date": "20250731",
+        "ratio": 1.8575
+      },
+      {
+        "date": "20250829",
+        "ratio": 1.9908
+      }
+    ],
+    "cumulative_ratio": 3.6979
+  },
+  "512000.SH": {
+    "splits": [
+      {
+        "date": "20250801",
+        "ratio": 2.0032
+      }
+    ],
+    "cumulative_ratio": 2.0032
+  },
+  "159391.SZ": {
+    "splits": [
+      {
+        "date": "20250804",
+        "ratio": 4.4413
+      },
+      {
+        "date": "20250805",
+        "ratio": 2.1537
+      },
+      {
+        "date": "20250811",
+        "ratio": 1.9514
+      }
+    ],
+    "cumulative_ratio": 18.6656
+  },
+  "159876.SZ": {
+    "splits": [
+      {
+        "date": "20250804",
+        "ratio": 2.01
+      }
+    ],
+    "cumulative_ratio": 2.01
+  },
+  "563680.SH": {
+    "splits": [
+      {
+        "date": "20250806",
+        "ratio": 1.9582
+      }
+    ],
+    "cumulative_ratio": 1.9582
+  },
+  "562080.SH": {
+    "splits": [
+      {
+        "date": "20250808",
+        "ratio": 3.4702
+      },
+      {
+        "date": "20251107",
+        "ratio": 1.9789
+      }
+    ],
+    "cumulative_ratio": 6.8672
+  },
+  "159231.SZ": {
+    "splits": [
+      {
+        "date": "20250811",
+        "ratio": 2.0
+      }
+    ],
+    "cumulative_ratio": 2.0
+  },
+  "159219.SZ": {
+    "splits": [
+      {
+        "date": "20250814",
+        "ratio": 4.8506
+      },
+      {
+        "date": "20250929",
+        "ratio": 3.1178
+      }
+    ],
+    "cumulative_ratio": 15.1232
+  },
+  "511100.SH": {
+    "splits": [
+      {
+        "date": "20250815",
+        "ratio": 2.0569
+      }
+    ],
+    "cumulative_ratio": 2.0569
+  },
+  "588070.SH": {
+    "splits": [
+      {
+        "date": "20250818",
+        "ratio": 4.1198
+      }
+    ],
+    "cumulative_ratio": 4.1198
+  },
+  "588920.SH": {
+    "splits": [
+      {
+        "date": "20250825",
+        "ratio": 1.8312
+      }
+    ],
+    "cumulative_ratio": 1.8312
+  },
+  "563580.SH": {
+    "splits": [
+      {
+        "date": "20250827",
+        "ratio": 2.381
+      }
+    ],
+    "cumulative_ratio": 2.381
+  },
+  "513770.SH": {
+    "splits": [
+      {
+        "date": "20250829",
+        "ratio": 2.0236
+      }
+    ],
+    "cumulative_ratio": 2.0236
+  },
+  "159775.SZ": {
+    "splits": [
+      {
+        "date": "20250901",
+        "ratio": 2.0514
+      }
+    ],
+    "cumulative_ratio": 2.0514
+  },
+  "159322.SZ": {
+    "splits": [
+      {
+        "date": "20250902",
+        "ratio": 2.5751
+      }
+    ],
+    "cumulative_ratio": 2.5751
+  },
+  "515000.SH": {
+    "splits": [
+      {
+        "date": "20250905",
+        "ratio": 1.9764
+      }
+    ],
+    "cumulative_ratio": 1.9764
+  },
+  "516800.SH": {
+    "splits": [
+      {
+        "date": "20250905",
+        "ratio": 2.0
+      }
+    ],
+    "cumulative_ratio": 2.0
+  },
+  "589520.SH": {
+    "splits": [
+      {
+        "date": "20250905",
+        "ratio": 1.8023
+      }
+    ],
+    "cumulative_ratio": 1.8023
+  },
+  "159261.SZ": {
+    "splits": [
+      {
+        "date": "20250908",
+        "ratio": 1.805
+      }
+    ],
+    "cumulative_ratio": 1.805
+  },
+  "159387.SZ": {
+    "splits": [
+      {
+        "date": "20250909",
+        "ratio": 2.0571
+      },
+      {
+        "date": "20251020",
+        "ratio": 2.0785
+      },
+      {
+        "date": "20260327",
+        "ratio": 2.2192
+      }
+    ],
+    "cumulative_ratio": 9.4886
+  },
+  "563830.SH": {
+    "splits": [
+      {
+        "date": "20250910",
+        "ratio": 8.6749
+      }
+    ],
+    "cumulative_ratio": 8.6749
+  },
+  "515260.SH": {
+    "splits": [
+      {
+        "date": "20250912",
+        "ratio": 2.0258
+      }
+    ],
+    "cumulative_ratio": 2.0258
+  },
+  "589100.SH": {
+    "splits": [
+      {
+        "date": "20250912",
+        "ratio": 3.3082
+      },
+      {
+        "date": "20260623",
+        "ratio": 2.4752
+      }
+    ],
+    "cumulative_ratio": 8.1885
+  },
+  "159266.SZ": {
+    "splits": [
+      {
+        "date": "20250915",
+        "ratio": 2.5074
+      }
+    ],
+    "cumulative_ratio": 2.5074
+  },
+  "159977.SZ": {
+    "splits": [
+      {
+        "date": "20250915",
+        "ratio": 1.9477
+      }
+    ],
+    "cumulative_ratio": 1.9477
+  },
+  "560750.SH": {
+    "splits": [
+      {
+        "date": "20250917",
+        "ratio": 2.1182
+      }
+    ],
+    "cumulative_ratio": 2.1182
+  },
+  "159223.SZ": {
+    "splits": [
+      {
+        "date": "20250918",
+        "ratio": 2.509
+      },
+      {
+        "date": "20250919",
+        "ratio": 1.9253
+      },
+      {
+        "date": "20251009",
+        "ratio": 2.0915
+      }
+    ],
+    "cumulative_ratio": 10.1032
+  },
+  "512250.SH": {
+    "splits": [
+      {
+        "date": "20250919",
+        "ratio": 2.9014
+      },
+      {
+        "date": "20251105",
+        "ratio": 7.9717
+      },
+      {
+        "date": "20251106",
+        "ratio": 2.0601
+      }
+    ],
+    "cumulative_ratio": 47.6482
+  },
+  "560950.SH": {
+    "splits": [
+      {
+        "date": "20250922",
+        "ratio": 2.2318
+      }
+    ],
+    "cumulative_ratio": 2.2318
+  },
+  "588270.SH": {
+    "splits": [
+      {
+        "date": "20250923",
+        "ratio": 1.9731
+      }
+    ],
+    "cumulative_ratio": 1.9731
+  },
+  "560690.SH": {
+    "splits": [
+      {
+        "date": "20250926",
+        "ratio": 2.0887
+      }
+    ],
+    "cumulative_ratio": 2.0887
+  },
+  "159239.SZ": {
+    "splits": [
+      {
+        "date": "20250929",
+        "ratio": 2.01
+      }
+    ],
+    "cumulative_ratio": 2.01
+  },
+  "515980.SH": {
+    "splits": [
+      {
+        "date": "20250929",
+        "ratio": 1.9993
+      }
+    ],
+    "cumulative_ratio": 1.9993
+  },
+  "563500.SH": {
+    "splits": [
+      {
+        "date": "20251017",
+        "ratio": 1.9629
+      }
+    ],
+    "cumulative_ratio": 1.9629
+  },
+  "159596.SZ": {
+    "splits": [
+      {
+        "date": "20251020",
+        "ratio": 2.0249
+      }
+    ],
+    "cumulative_ratio": 2.0249
+  },
+  "512130.SH": {
+    "splits": [
+      {
+        "date": "20251023",
+        "ratio": 2.2063
+      },
+      {
+        "date": "20260116",
+        "ratio": 2.1965
+      }
+    ],
+    "cumulative_ratio": 4.8461
+  },
+  "159298.SZ": {
+    "splits": [
+      {
+        "date": "20251027",
+        "ratio": 2.0084
+      }
+    ],
+    "cumulative_ratio": 2.0084
+  },
+  "159318.SZ": {
+    "splits": [
+      {
+        "date": "20251029",
+        "ratio": 2.0135
+      },
+      {
+        "date": "20260402",
+        "ratio": 2.2287
+      }
+    ],
+    "cumulative_ratio": 4.4875
+  },
+  "159583.SZ": {
+    "splits": [
+      {
+        "date": "20251106",
+        "ratio": 1.9643
+      }
+    ],
+    "cumulative_ratio": 1.9643
+  },
+  "562000.SH": {
+    "splits": [
+      {
+        "date": "20251107",
+        "ratio": 1.9931
+      }
+    ],
+    "cumulative_ratio": 1.9931
+  },
+  "159220.SZ": {
+    "splits": [
+      {
+        "date": "20251110",
+        "ratio": 2.0228
+      }
+    ],
+    "cumulative_ratio": 2.0228
+  },
+  "159382.SZ": {
+    "splits": [
+      {
+        "date": "20251111",
+        "ratio": 1.8769
+      }
+    ],
+    "cumulative_ratio": 1.8769
+  },
+  "511580.SH": {
+    "splits": [
+      {
+        "date": "20251119",
+        "ratio": 2.0465
+      }
+    ],
+    "cumulative_ratio": 2.0465
+  },
+  "589060.SH": {
+    "splits": [
+      {
+        "date": "20251120",
+        "ratio": 2.1667
+      }
+    ],
+    "cumulative_ratio": 2.1667
+  },
+  "159555.SZ": {
+    "splits": [
+      {
+        "date": "20251125",
+        "ratio": 1.9349
+      }
+    ],
+    "cumulative_ratio": 1.9349
+  },
+  "560890.SH": {
+    "splits": [
+      {
+        "date": "20251125",
+        "ratio": 4.4064
+      }
+    ],
+    "cumulative_ratio": 4.4064
+  },
+  "512240.SH": {
+    "splits": [
+      {
+        "date": "20251128",
+        "ratio": 2.6055
+      },
+      {
+        "date": "20260304",
+        "ratio": 2.0642
+      }
+    ],
+    "cumulative_ratio": 5.3783
+  },
+  "159643.SZ": {
+    "splits": [
+      {
+        "date": "20251201",
+        "ratio": 1.9173
+      }
+    ],
+    "cumulative_ratio": 1.9173
+  },
+  "159260.SZ": {
+    "splits": [
+      {
+        "date": "20251208",
+        "ratio": 2.0825
+      }
+    ],
+    "cumulative_ratio": 2.0825
+  },
+  "159636.SZ": {
+    "splits": [
+      {
+        "date": "20251208",
+        "ratio": 2.0
+      }
+    ],
+    "cumulative_ratio": 2.0
+  },
+  "560190.SH": {
+    "splits": [
+      {
+        "date": "20251209",
+        "ratio": 2.0067
+      },
+      {
+        "date": "20260312",
+        "ratio": 2.0421
+      }
+    ],
+    "cumulative_ratio": 4.0979
+  },
+  "159970.SZ": {
+    "splits": [
+      {
+        "date": "20251222",
+        "ratio": 6.0
+      }
+    ],
+    "cumulative_ratio": 6.0
+  },
+  "159230.SZ": {
+    "splits": [
+      {
+        "date": "20260109",
+        "ratio": 1.9067
+      }
+    ],
+    "cumulative_ratio": 1.9067
+  },
+  "159107.SZ": {
+    "splits": [
+      {
+        "date": "20260112",
+        "ratio": 2.356
+      }
+    ],
+    "cumulative_ratio": 2.356
+  },
+  "159256.SZ": {
+    "splits": [
+      {
+        "date": "20260112",
+        "ratio": 3.9416
+      }
+    ],
+    "cumulative_ratio": 3.9416
+  },
+  "159725.SZ": {
+    "splits": [
+      {
+        "date": "20260112",
+        "ratio": 1.9651
+      },
+      {
+        "date": "20260512",
+        "ratio": 1.8499
+      }
+    ],
+    "cumulative_ratio": 3.6352
+  },
+  "159805.SZ": {
+    "splits": [
+      {
+        "date": "20260112",
+        "ratio": 2.3338
+      }
+    ],
+    "cumulative_ratio": 2.3338
+  },
+  "517770.SH": {
+    "splits": [
+      {
+        "date": "20260112",
+        "ratio": 3.1392
+      }
+    ],
+    "cumulative_ratio": 3.1392
+  },
+  "159243.SZ": {
+    "splits": [
+      {
+        "date": "20260113",
+        "ratio": 3.7226
+      }
+    ],
+    "cumulative_ratio": 3.7226
+  },
+  "588420.SH": {
+    "splits": [
+      {
+        "date": "20260113",
+        "ratio": 1.8488
+      }
+    ],
+    "cumulative_ratio": 1.8488
+  },
+  "589130.SH": {
+    "splits": [
+      {
+        "date": "20260116",
+        "ratio": 1.9532
+      }
+    ],
+    "cumulative_ratio": 1.9532
+  },
+  "159969.SZ": {
+    "splits": [
+      {
+        "date": "20260119",
+        "ratio": 1.9088
+      }
+    ],
+    "cumulative_ratio": 1.9088
+  },
+  "159388.SZ": {
+    "splits": [
+      {
+        "date": "20260126",
+        "ratio": 2.491
+      }
+    ],
+    "cumulative_ratio": 2.491
+  },
+  "561920.SH": {
+    "splits": [
+      {
+        "date": "20260126",
+        "ratio": 2.9197
+      }
+    ],
+    "cumulative_ratio": 2.9197
+  },
+  "159645.SZ": {
+    "splits": [
+      {
+        "date": "20260127",
+        "ratio": 1.9654
+      }
+    ],
+    "cumulative_ratio": 1.9654
+  },
+  "589190.SH": {
+    "splits": [
+      {
+        "date": "20260129",
+        "ratio": 2.2277
+      }
+    ],
+    "cumulative_ratio": 2.2277
+  },
+  "515880.SH": {
+    "splits": [
+      {
+        "date": "20260202",
+        "ratio": 3.0929
+      },
+      {
+        "date": "20260703",
+        "ratio": 1.981
+      }
+    ],
+    "cumulative_ratio": 6.127
+  },
+  "588770.SH": {
+    "splits": [
+      {
+        "date": "20260202",
+        "ratio": 3.3963
+      }
+    ],
+    "cumulative_ratio": 3.3963
+  },
+  "588780.SH": {
+    "splits": [
+      {
+        "date": "20260202",
+        "ratio": 2.0
+      }
+    ],
+    "cumulative_ratio": 2.0
+  },
+  "159147.SZ": {
+    "splits": [
+      {
+        "date": "20260204",
+        "ratio": 1.8404
+      }
+    ],
+    "cumulative_ratio": 1.8404
+  },
+  "159871.SZ": {
+    "splits": [
+      {
+        "date": "20260206",
+        "ratio": 1.9618
+      }
+    ],
+    "cumulative_ratio": 1.9618
+  },
+  "159994.SZ": {
+    "splits": [
+      {
+        "date": "20260206",
+        "ratio": 1.9956
+      }
+    ],
+    "cumulative_ratio": 1.9956
+  },
+  "159855.SZ": {
+    "splits": [
+      {
+        "date": "20260210",
+        "ratio": 3.1042
+      }
+    ],
+    "cumulative_ratio": 3.1042
+  },
+  "516620.SH": {
+    "splits": [
+      {
+        "date": "20260210",
+        "ratio": 3.8003
+      }
+    ],
+    "cumulative_ratio": 3.8003
+  },
+  "159246.SZ": {
+    "splits": [
+      {
+        "date": "20260212",
+        "ratio": 1.9938
+      }
+    ],
+    "cumulative_ratio": 1.9938
+  },
+  "159148.SZ": {
+    "splits": [
+      {
+        "date": "20260302",
+        "ratio": 2.4067
+      },
+      {
+        "date": "20260303",
+        "ratio": 1.9576
+      }
+    ],
+    "cumulative_ratio": 4.7114
+  },
+  "159945.SZ": {
+    "splits": [
+      {
+        "date": "20260302",
+        "ratio": 2.0968
+      }
+    ],
+    "cumulative_ratio": 2.0968
+  },
+  "159588.SZ": {
+    "splits": [
+      {
+        "date": "20260303",
+        "ratio": 1.9517
+      }
+    ],
+    "cumulative_ratio": 1.9517
+  },
+  "561570.SH": {
+    "splits": [
+      {
+        "date": "20260303",
+        "ratio": 1.9859
+      }
+    ],
+    "cumulative_ratio": 1.9859
+  },
+  "563150.SH": {
+    "splits": [
+      {
+        "date": "20260303",
+        "ratio": 1.8862
+      }
+    ],
+    "cumulative_ratio": 1.8862
+  },
+  "560310.SH": {
+    "splits": [
+      {
+        "date": "20260311",
+        "ratio": 2.1097
+      }
+    ],
+    "cumulative_ratio": 2.1097
+  },
+  "530060.SH": {
+    "splits": [
+      {
+        "date": "20260323",
+        "ratio": 1.9044
+      }
+    ],
+    "cumulative_ratio": 1.9044
+  },
+  "512760.SH": {
+    "splits": [
+      {
+        "date": "20260326",
+        "ratio": 2.0106
+      }
+    ],
+    "cumulative_ratio": 2.0106
+  },
+  "159516.SZ": {
+    "splits": [
+      {
+        "date": "20260327",
+        "ratio": 1.9629
+      }
+    ],
+    "cumulative_ratio": 1.9629
+  },
+  "516130.SH": {
+    "splits": [
+      {
+        "date": "20260327",
+        "ratio": 4.4536
+      }
+    ],
+    "cumulative_ratio": 4.4536
+  },
+  "510570.SH": {
+    "splits": [
+      {
+        "date": "20260401",
+        "ratio": 2.9514
+      }
+    ],
+    "cumulative_ratio": 2.9514
+  },
+  "513660.SH": {
+    "splits": [
+      {
+        "date": "20260420",
+        "ratio": 2.0
+      }
+    ],
+    "cumulative_ratio": 2.0
+  },
+  "560660.SH": {
+    "splits": [
+      {
+        "date": "20260424",
+        "ratio": 2.0
+      }
+    ],
+    "cumulative_ratio": 2.0
+  },
+  "159253.SZ": {
+    "splits": [
+      {
+        "date": "20260507",
+        "ratio": 6.6424
+      }
+    ],
+    "cumulative_ratio": 6.6424
+  },
+  "515050.SH": {
+    "splits": [
+      {
+        "date": "20260512",
+        "ratio": 3.0264
+      }
+    ],
+    "cumulative_ratio": 3.0264
+  },
+  "561060.SH": {
+    "splits": [
+      {
+        "date": "20260514",
+        "ratio": 3.1563
+      }
+    ],
+    "cumulative_ratio": 3.1563
+  },
+  "562950.SH": {
+    "splits": [
+      {
+        "date": "20260515",
+        "ratio": 1.8952
+      }
+    ],
+    "cumulative_ratio": 1.8952
+  },
+  "159305.SZ": {
+    "splits": [
+      {
+        "date": "20260520",
+        "ratio": 2.0086
+      }
+    ],
+    "cumulative_ratio": 2.0086
+  },
+  "512930.SH": {
+    "splits": [
+      {
+        "date": "20260521",
+        "ratio": 4.0152
+      }
+    ],
+    "cumulative_ratio": 4.0152
+  },
+  "516780.SH": {
+    "splits": [
+      {
+        "date": "20260522",
+        "ratio": 1.9145
+      }
+    ],
+    "cumulative_ratio": 1.9145
+  },
+  "159381.SZ": {
+    "splits": [
+      {
+        "date": "20260602",
+        "ratio": 1.9436
+      }
+    ],
+    "cumulative_ratio": 1.9436
+  },
+  "159031.SZ": {
+    "splits": [
+      {
+        "date": "20260604",
+        "ratio": 1.898
+      }
+    ],
+    "cumulative_ratio": 1.898
+  },
+  "589210.SH": {
+    "splits": [
+      {
+        "date": "20260605",
+        "ratio": 2.1554
+      }
+    ],
+    "cumulative_ratio": 2.1554
+  },
+  "589180.SH": {
+    "splits": [
+      {
+        "date": "20260610",
+        "ratio": 2.2126
+      }
+    ],
+    "cumulative_ratio": 2.2126
+  },
+  "511020.SH": {
+    "splits": [
+      {
+        "date": "20260611",
+        "ratio": 2.0408
+      }
+    ],
+    "cumulative_ratio": 2.0408
+  },
+  "588120.SH": {
+    "splits": [
+      {
+        "date": "20260623",
+        "ratio": 2.1418
+      }
+    ],
+    "cumulative_ratio": 2.1418
+  },
+  "159292.SZ": {
+    "splits": [
+      {
+        "date": "20260624",
+        "ratio": 2.539
+      }
+    ],
+    "cumulative_ratio": 2.539
+  },
+  "561330.SH": {
+    "splits": [
+      {
+        "date": "20260624",
+        "ratio": 2.0155
+      }
+    ],
+    "cumulative_ratio": 2.0155
+  },
+  "561380.SH": {
+    "splits": [
+      {
+        "date": "20260624",
+        "ratio": 2.4644
+      }
+    ],
+    "cumulative_ratio": 2.4644
+  },
+  "159881.SZ": {
+    "splits": [
+      {
+        "date": "20260625",
+        "ratio": 2.0
+      }
+    ],
+    "cumulative_ratio": 2.0
+  },
+  "561980.SH": {
+    "splits": [
+      {
+        "date": "20260625",
+        "ratio": 5.2706
+      }
+    ],
+    "cumulative_ratio": 5.2706
+  },
+  "512480.SH": {
+    "splits": [
+      {
+        "date": "20260702",
+        "ratio": 1.9986
+      }
+    ],
+    "cumulative_ratio": 1.9986
+  },
+  "515070.SH": {
+    "splits": [
+      {
+        "date": "20260703",
+        "ratio": 2.0089
+      }
+    ],
+    "cumulative_ratio": 2.0089
+  },
+  "588170.SH": {
+    "splits": [
+      {
+        "date": "20260703",
+        "ratio": 3.0773
+      }
+    ],
+    "cumulative_ratio": 3.0773
+  },
+  "159597.SZ": {
+    "splits": [
+      {
+        "date": "20260708",
+        "ratio": 3.0193
+      }
+    ],
+    "cumulative_ratio": 3.0193
+  },
+  "561310.SH": {
+    "splits": [
+      {
+        "date": "20260708",
+        "ratio": 2.0
+      }
+    ],
+    "cumulative_ratio": 2.0
+  },
+  "588020.SH": {
+    "splits": [
+      {
+        "date": "20260708",
+        "ratio": 2.9762
+      }
+    ],
+    "cumulative_ratio": 2.9762
+  },
+  "589630.SH": {
+    "splits": [
+      {
+        "date": "20260708",
+        "ratio": 2.0
+      }
+    ],
+    "cumulative_ratio": 2.0
+  },
+  "589150.SH": {
+    "splits": [
+      {
+        "date": "20260709",
+        "ratio": 5.175
+      }
+    ],
+    "cumulative_ratio": 5.175
+  }
+}

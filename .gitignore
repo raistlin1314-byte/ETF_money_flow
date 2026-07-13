@@ -1,0 +1,13 @@
+# 数据文件不进版本管理
+ETF_Data/
+*.parquet
+*.xlsx
+*.html
+index.html
+etf_money_flow_dashboard.html
+output/
+build/
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
