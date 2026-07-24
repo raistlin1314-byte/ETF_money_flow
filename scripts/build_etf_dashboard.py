@@ -183,6 +183,8 @@ def build_data():
                 share = 0.0
                 assets = 0.0
                 count = 0
+            if assets is not None and assets < 0.0001 and share is not None and share > 1:
+                assets = None  # 有份额但无净值数据 → 打断曲线,不画到0轴
             prev = previous_by_category[category]
             category_series[category].append({
                 "d": date,
@@ -359,6 +361,8 @@ def render_html(data):
     .line-total {{ fill: none; stroke: var(--accent); stroke-width: 2.2; }}
     .line-category {{ fill: none; stroke: var(--accent-2); stroke-width: 2; }}
     .line-category-ratio {{ fill: none; stroke: var(--accent-3); stroke-width: 2; stroke-dasharray: 5 4; }}
+    .line-total-nav {{ fill: none; stroke: var(--accent); stroke-width: 2.2; stroke-dasharray: 8 3; }}
+    .line-category-nav {{ fill: none; stroke: var(--accent-2); stroke-width: 2; stroke-dasharray: 8 3; }}
     .dot {{ fill: var(--panel); stroke-width: 2; }}
     .tooltip {{
       position: absolute;
@@ -426,6 +430,17 @@ def render_html(data):
     <div class="chart-wrap">
       <svg id="line-chart" role="img" aria-label="ETF份额及子类别占比变化曲线"></svg>
       <div class="tooltip" id="tooltip"></div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="subhead">
+      <h2>总净值与子类别净值曲线（拆分免疫）</h2>
+      <span class="small" id="nav-chart-label"></span>
+    </div>
+    <div class="chart-wrap">
+      <svg id="nav-chart" role="img" aria-label="ETF资产净值变化曲线"></svg>
+      <div class="tooltip" id="nav-tooltip"></div>
     </div>
   </section>
 
@@ -615,19 +630,104 @@ function renderChartMarkerOnly(idx, x, yTotal, yCategory, yRatio, total, cat, ra
   `);
 }}
 
+function renderNavChart() {{
+  const svg = document.getElementById("nav-chart");
+  const tooltip = document.getElementById("nav-tooltip");
+  const rect = svg.getBoundingClientRect();
+  const width = Math.max(320, rect.width);
+  const height = Math.max(260, rect.height);
+  const compactChart = width < 650;
+  const margin = {{ top: compactChart ? 18 : 28, right: compactChart ? 80 : 110, bottom: 34, left: 66 }};
+  const plotW = width - margin.left - margin.right;
+  const plotH = height - margin.top - margin.bottom;
+  const total = data.total;
+  const cat = data.series[selectedCategory];
+  const dates = total.map(x => x.d);
+  const bounds = values => {{
+    const fin = values.filter(v => v != null && v > 0);
+    if (!fin.length) return [0, 100];
+    const min = Math.min(...fin);
+    const max = Math.max(...fin);
+    const pad = Math.max((max - min) * 0.08, 1);
+    return [min - pad, max + pad];
+  }};
+  const [totalY0, totalY1] = bounds(total.map(x => x.a));
+  const [catY0, catY1] = bounds(cat.map(x => x.a));
+  const x = i => margin.left + (dates.length <= 1 ? 0 : i * plotW / (dates.length - 1));
+  const yTotalNav = v => margin.top + (totalY1 - v) * plotH / (totalY1 - totalY0);
+  const yCatNav = v => margin.top + (catY1 - v) * plotH / (catY1 - catY0);
+  const line = (arr, yScale, field) => {{
+    let d = '';
+    let penUp = true;
+    for (let i = 0; i < arr.length; i++) {{
+      const v = arr[i][field];
+      if (v == null || v <= 0) {{ penUp = true; continue; }}
+      d += `${{penUp ? 'M' : 'L'}}${{x(i).toFixed(1)}},${{yScale(v).toFixed(1)}}`;
+      penUp = false;
+    }}
+    return d;
+  }};
+  const ticks = 5;
+  const tickValues = Array.from({{ length: ticks }}, (_, i) => {{
+    const progress = i / (ticks - 1);
+    return {{
+      total: totalY0 + (totalY1 - totalY0) * progress,
+      category: catY0 + (catY1 - catY0) * progress,
+    }};
+  }});
+  const dateTicks = compactChart
+    ? [0, dates.length - 1]
+    : [0, Math.floor(dates.length / 4), Math.floor(dates.length / 2), Math.floor(dates.length * 3 / 4), dates.length - 1];
+  const dateTickLabel = date => compactChart ? date.slice(0, 7) : date;
+  const selectedIndex = dates.indexOf(selectedDate);
+  const totalPoint = total[selectedIndex] || {{ a: 0 }};
+  const catPoint = cat[selectedIndex] || {{ a: 0 }};
+
+  svg.setAttribute("viewBox", `0 0 ${{width}} ${{height}}`);
+  svg.innerHTML = `
+    <g class="axis">
+      ${{tickValues.map(t => `<line class="grid-line" x1="${{margin.left}}" x2="${{width - margin.right}}" y1="${{yTotalNav(t.total)}}" y2="${{yTotalNav(t.total)}}"></line><text x="${{margin.left - 8}}" y="${{yTotalNav(t.total) + 4}}" text-anchor="end">${{fmt.format(t.total)}}</text><text x="${{width - margin.right + 8}}" y="${{yTotalNav(t.total) + 4}}">${{fmt.format(t.category)}}</text>`).join("")}}
+      ${{dateTicks.map(i => `<text x="${{x(i)}}" y="${{height - 10}}" text-anchor="${{i === 0 ? "start" : i === dates.length - 1 ? "end" : "middle"}}">${{dateTickLabel(dates[i])}}</text>`).join("")}}
+    </g>
+    ${{compactChart ? "" : `<text x="${{margin.left}}" y="${{margin.top - 5}}" fill="var(--accent)" font-size="12">股票型ETF总净值（左轴，亿元）</text><text x="${{width - margin.right}}" y="${{margin.top - 5}}" fill="var(--accent-2)" font-size="12" text-anchor="end">${{selectedCategory}}净值（右轴，亿元）</text>`}}
+    <path class="line-total-nav" d="${{line(total, yTotalNav, 'a')}}"></path>
+    <path class="line-category-nav" d="${{line(cat, yCatNav, 'a')}}"></path>
+    <line x1="${{x(selectedIndex)}}" x2="${{x(selectedIndex)}}" y1="${{margin.top}}" y2="${{height - margin.bottom}}" stroke="var(--line)"></line>
+    <circle class="dot" cx="${{x(selectedIndex)}}" cy="${{yTotalNav(totalPoint.a || 0)}}" r="4" stroke="var(--accent)"></circle>
+    <circle class="dot" cx="${{x(selectedIndex)}}" cy="${{yCatNav(catPoint.a || 0)}}" r="4" stroke="var(--accent-2)"></circle>
+    <rect x="${{margin.left}}" y="${{margin.top}}" width="${{plotW}}" height="${{plotH}}" fill="transparent" id="nav-hover-zone"></rect>
+  `;
+  document.getElementById("nav-chart-label").textContent = `左轴：股票型ETF总净值；右轴：${{selectedCategory}}净值（单位：亿元，拆分免疫）`;
+  const hover = svg.querySelector("#nav-hover-zone");
+  hover.addEventListener("mousemove", event => {{
+    const point = svg.createSVGPoint();
+    point.x = event.clientX; point.y = event.clientY;
+    const local = point.matrixTransform(svg.getScreenCTM().inverse());
+    const idx = Math.max(0, Math.min(dates.length - 1, Math.round((local.x - margin.left) / plotW * (dates.length - 1))));
+    tooltip.innerHTML = `${{dates[idx]}}<br>股票型总净值：${{fmt2.format(total[idx].a || 0)}} 亿元<br>${{selectedCategory}}净值：${{fmt2.format((cat[idx] || {{a:0}}).a || 0)}} 亿元`;
+    tooltip.style.left = `${{Math.min(width - 90, Math.max(90, x(idx)))}}px`;
+    tooltip.style.top = `${{Math.min(height - 20, Math.max(60, yTotalNav(total[idx].a || 0)))}}px`;
+    tooltip.style.opacity = "1";
+  }});
+  hover.addEventListener("mouseleave", () => {{ tooltip.style.opacity = "0"; }});
+}}
+
 function renderTables() {{
   const table = document.getElementById("summary-table");
   const rows = data.total.map(t => {{
     const c = catByDate[selectedCategory][t.d] || {{ n: 0, s: 0, a: 0, c: null }};
     const ratio = t.s ? c.s / t.s * 100 : null;
-    return `<tr><td>${{t.d}}</td><td>${{selectedCategory}}</td><td>${{fmt.format(t.n || 0)}}</td><td>${{fmt2.format(t.s)}}</td><td>${{t.c == null ? "-" : fmt2.format(t.c)}}</td><td>${{fmt.format(c.n || 0)}}</td><td>${{fmt2.format(c.s || 0)}}</td><td>${{ratio == null ? "-" : fmt2.format(ratio) + "%"}}</td><td>${{c.c == null ? "-" : fmt2.format(c.c)}}</td></tr>`;
+    return `<tr><td>${{t.d}}</td><td>${{selectedCategory}}</td><td>${{fmt.format(t.n || 0)}}</td><td>${{fmt2.format(t.s)}}</td><td>${{fmt2.format(t.a || 0)}}</td><td>${{t.c == null ? "-" : fmt2.format(t.c)}}</td><td>${{fmt.format(c.n || 0)}}</td><td>${{fmt2.format(c.s || 0)}}</td><td>${{fmt2.format(c.a || 0)}}</td><td>${{ratio == null ? "-" : fmt2.format(ratio) + "%"}}</td><td>${{c.c == null ? "-" : fmt2.format(c.c)}}</td></tr>`;
   }}).reverse().join("");
-  table.innerHTML = `<thead><tr><th>日期</th><th>子类别</th><th>股票型数量</th><th>股票型份额</th><th>股票型环比</th><th>子类数量</th><th>子类份额</th><th>子类占比</th><th>子类环比</th></tr></thead><tbody>${{rows}}</tbody>`;
+  table.innerHTML = `<thead><tr><th>日期</th><th>子类别</th><th>股票型数量</th><th>股票型份额</th><th>股票型净值</th><th>股票型份额环比</th><th>子类数量</th><th>子类份额</th><th>子类净值</th><th>子类占比</th><th>子类份额环比</th></tr></thead><tbody>${{rows}}</tbody>`;
 }}
 
 function moverTable(id, rows) {{
   const table = document.getElementById(id);
-  table.innerHTML = `<thead><tr><th>代码</th><th>基金简称</th><th>增减</th><th>最新份额</th></tr></thead><tbody>${{rows.map(r => `<tr><td>${{r.code}}</td><td>${{r.name}}</td><td class="${{r.change >= 0 ? "positive" : "negative"}}">${{fmt2.format(r.change)}}</td><td>${{fmt2.format(r.share)}}</td></tr>`).join("") || `<tr><td colspan="4">无可比数据</td></tr>`}}</tbody>`;
+  const hasSizeChange = rows.some(r => r.size_change != null);
+  const headerExtra = hasSizeChange ? "<th>净值增减</th>" : "";
+  const renderExtra = r => hasSizeChange ? `<td class="${{(r.size_change || 0) >= 0 ? "positive" : "negative"}}">${{r.size_change != null ? fmt2.format(r.size_change) : "-"}}</td>` : "";
+  table.innerHTML = `<thead><tr><th>代码</th><th>基金简称</th><th>份额增减</th>${{headerExtra}}<th>最新份额</th></tr></thead><tbody>${{rows.map(r => `<tr><td>${{r.code}}</td><td>${{r.name}}</td><td class="${{r.change >= 0 ? "positive" : "negative"}}">${{fmt2.format(r.change)}}</td>${{renderExtra(r)}}<td>${{fmt2.format(r.share)}}</td></tr>`).join("") || `<tr><td colspan="${{hasSizeChange ? 5 : 4}}">无可比数据</td></tr>`}}</tbody>`;
 }}
 
 function renderMovers() {{
@@ -668,11 +768,12 @@ function render() {{
   document.getElementById("date-select").value = selectedDate;
   renderCards();
   renderChart();
+  renderNavChart();
   renderTables();
   renderMovers();
 }}
 
-window.addEventListener("resize", () => renderChart());
+window.addEventListener("resize", () => {{ renderChart(); renderNavChart(); }});
 initControls();
 render();
 </script>

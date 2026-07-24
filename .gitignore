@@ -11,3 +11,10 @@ __pycache__/
 *.pyc
 .venv/
 .DS_Store
+
+# 无关项目
+.codex_tmp_etf_scale/
+podcast-distiller/
+scripts/backfill_nav.py
+.playwright-cli/
+*.bak

@@ -129,29 +129,33 @@ def fetch_and_save(pro, trade_date, force=False):
         return False, 0
 
     # --- 拉取单位净值以计算资产总值(total_size) ---
-    nav_df = None
+    # 注: Tushare 2025-11-03 起禁止多 ts_code 同时提取，必须逐只查询
+    # fund_nav 不传 ts_code 仅返回场外基金(.OF)，ETF 只能逐只调用
+    # Tushare 限流 500 次/分钟 → 0.15s 间隔 = 400次/分钟, 安全边际内, ~1600只需~4分钟
+    nav_map = {}
+    nav_errors = 0
     try:
-        nav_df = pro.fund_nav(trade_date=trade_date)
-    except Exception as e:
-        log(f"  {trade_date} fund_nav 拉取失败: {e!r}, total_size 将为 None")
-
-    if nav_df is not None and not nav_df.empty:
-        nav_map = {}
-        for _, row in nav_df.iterrows():
-            code = row.get("ts_code")
-            nav = row.get("unit_nav")
-            if code and nav is not None:
-                try:
-                    nav_map[code] = float(nav)
-                except (ValueError, TypeError):
-                    pass
+        etf_codes = df["ts_code"].dropna().unique().tolist()
+        total_codes = len(etf_codes)
+        for i, code in enumerate(etf_codes):
+            try:
+                ndf = pro.fund_nav(ts_code=code, nav_date=trade_date)
+                if len(ndf) > 0:
+                    nav_val = ndf["unit_nav"].iloc[0]
+                    if pd.notna(nav_val):
+                        nav_map[code] = float(nav_val)
+                time.sleep(0.15)
+            except Exception:
+                nav_errors += 1
+            if (i + 1) % 300 == 0:
+                log(f"  fund_nav 进度 {i+1}/{total_codes}, 已匹配 {len(nav_map)}, 错误 {nav_errors}")
         df["_unit_nav"] = df["ts_code"].map(nav_map)
         df["total_size"] = pd.to_numeric(df["fd_share"], errors="coerce") * df["_unit_nav"]
         nav_hit = df["total_size"].notna().sum()
-        log(f"  {trade_date} fund_nav 匹配 {nav_hit}/{n} 只, total_size 已计算 (万元)")
-    else:
+        log(f"  {trade_date} fund_nav 逐只匹配 {nav_hit}/{n} 只 (错误 {nav_errors}), total_size 已计算 (万元)")
+    except Exception as e:
+        log(f"  {trade_date} fund_nav 拉取失败: {e!r}, total_size 将为 None")
         df["total_size"] = None
-        log(f"  {trade_date} fund_nav 无数据, total_size 为 None")
 
     rec = pd.DataFrame({
         "trade_date": trade_date,
