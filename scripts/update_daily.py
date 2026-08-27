@@ -378,7 +378,16 @@ def git_push(commit_msg, retries=3):
         if r.returncode == 0:
             log(f"  push 成功 (第{attempt}次)")
             return True
-        log(f"  push 第{attempt}次失败: {(r.stderr or r.stdout).strip()[:180]}")
+        err_msg = (r.stderr or "") + (r.stdout or "")
+        log(f"  push 第{attempt}次失败: {err_msg.strip()[:180]}")
+        # 检测到远端分叉(fetch first)时, 先 pull --rebase 再重试
+        if "fetch first" in err_msg or "rejected" in err_msg.lower():
+            log("  检测到远端分叉, 尝试 pull --rebase...")
+            r2 = run(["pull", "--rebase", "origin", "main"])
+            if r2.returncode != 0:
+                log(f"  [警告] pull rebase 失败: {(r2.stderr or r2.stdout).strip()[:180]}")
+            else:
+                log(f"  pull rebase 成功, 继续重试 push")
         if attempt < retries:
             time.sleep(8)
     log("  [错误] push 多次失败 —— 本地 index.html 已就绪, 可手工贴到仓库")
